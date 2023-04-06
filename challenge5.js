@@ -21,16 +21,16 @@ for (var i = 0; i < travel.length; i++) {
   if (travel[i] === "Austin, TX"){
     console.log(`Howdy from ${travel[i]}! I am a native Texan and am looking forward to some summer travel.`);
   }
-  if (travel[i] === "Mexico"){
+  else if (travel[i] === "Mexico"){
     console.log(`I really want to visit ${travel[i]} because I am learning to speak Spanish!`);
   }
-  if (travel[i] === "Portland, Oregon"){
+  else if (travel[i] === "Portland, Oregon"){
     console.log(`${travel[i]} is a beautiful city that has a similar vibe to Austin, but they have Voo Doo Donuts!`);
   }
-  if (travel[i] === "Yellow Stone National Park"){
+  else if (travel[i] === "Yellow Stone National Park"){
     console.log(`Our Girl Scout troop is thinking about going to ${travel[i]} because our girls are all graduating from high school. Traveling to ${travel[i]} would be a great way to celebrate!`);
   }
-  if (travel[i] === "New York City"){
+  else if (travel[i] === "New York City"){
     console.log(`Traveling to ${travel[i]} is on my bucket list. I don't know when or how I will get there, but I hope to go and see Central Park and watch a Broadway Play.`);
   }
 }
